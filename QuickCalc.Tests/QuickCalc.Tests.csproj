@@ -18,4 +18,9 @@
     <Using Include="Xunit" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\QuickCalc.Core\QuickCalc.Core.csproj" />
+    <ProjectReference Include="..\QuickCalc.App\QuickCalc.App.csproj" />
+  </ItemGroup>
+
 </Project>
