@@ -20,19 +20,15 @@ The project is structured into three parts:
 ---
 
 # Project Structure
-QuickCalc
-│
-├── QuickCalc.Core
-│ Calculator logic
-│
-├── QuickCalc.App
-│ Application layer and input evaluation
-│
-├── QuickCalc.Tests
-│ Unit tests and integration tests
-│
-└── QuickCalc.sln
+## Project Structure
 
+```text
+QuickCalc/
+├── QuickCalc.Core/      (calculator logic)
+├── QuickCalc.App/       (application layer + input evaluation)
+├── QuickCalc.Tests/     (unit tests + integration tests)
+└── QuickCalc.sln
+```
 ---
 
 # How to Build the Project
